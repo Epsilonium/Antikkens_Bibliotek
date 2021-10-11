@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 wb = xlrd.open_workbook('Cell_data.xlsx')
 sheet = wb.sheet_by_index(0)
 
-two = abs(sheet.cell_value(355, 3))*1/3600
 
 def task5time():
     time = []
