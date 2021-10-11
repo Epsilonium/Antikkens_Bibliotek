@@ -1,5 +1,4 @@
 import xlrd
-import numpy as np
 import matplotlib.pyplot as plt
 
 wb = xlrd.open_workbook('lab1.xlsx')
